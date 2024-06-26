@@ -3,14 +3,14 @@
 <center>
 <img src="https://media.gettyimages.com/id/157334670/es/foto/base-de-datos.jpg?s=612x612&w=gi&k=20&c=038JVeL8H1wTL7ZqaCW1e-ryH0GYtPbpZVOdUDQC55E=">
 </center>
-___
+_________________________________________________________________________________________________________________________________
 
 ## Entrega primer proyecto
 ### Pascuzzo Sergio Javier
 ### Comisión 57190
 ### Tutor:
 ### Docente:
-
+*********************************************************************************************************************************
 ### INTRODUCCION:
 Mi nombre es Sergio Javier Pascuzzo, curso en Coderhouse Base de datos en SQL, y presentare como proyecto una base de datos, basado en un juego (ficticio). Más adelante aclararé de que se trata y el procedimiento de como realice dicho trabajo.
 
