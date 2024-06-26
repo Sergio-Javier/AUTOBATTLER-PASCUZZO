@@ -100,7 +100,7 @@ En ella se llevara el registro general de las partidas jugadas por el usuario, a
 
 ![image](https://github.com/Sergio-Javier/AUTOBATTLER-PASCUZZO/assets/173856047/84e18c9e-dfa6-4e43-8d9f-607a322786ab)
 
-**PARA VISUALIZAR MEJOR INGRESAR AL LINK**
-<url src="https://whimsical.com/der-autobattler-2bxqrFpQD5GyFNj2uwau9e"> 
+**[PARA VISUALIZAR MEJOR HACER CLICK AQUI](https://whimsical.com/der-autobattler-2bxqrFpQD5GyFNj2uwau9e)**
+
 
 
