@@ -10,10 +10,10 @@ Entrega primer proyecto
 ### INTRODUCCION:
 Mi nombre es Sergio Javier Pascuzzo, curso en Coderhouse Base de datos en SQL, y presentare como proyecto una base de datos, basado en un juego (ficticio). Más adelante aclararé de que se trata y el procedimiento de como realice dicho trabajo.
 
-#### Situación problemática:
+### Situación problemática:
 Se debe crear una base de datos de prueba para la creación de un juego estilo autobattler, la misma debe poder registrar un perfil de usuario, además debe brindar y obtener información de las partidas jugadas. Por otro lado, también permitirá compras por parte del usuario de productos relacionados.
 
-#### Modelo de negocio:
+### Modelo de negocio:
 Es un juego estilo autobattler, el mismo es online modo pvp (player vs player), donde en una sala o partida, se encuentran ocho jugadores, y los mismos compiten uno a uno de forma aleatoria en un formato torneo.
 En cada ronda previa al enfrentamiento, los jugadores compran unidades, que pueden ir combinando según sus rasgos principales y/o secundarios para mejorar las estadísticas de las mismas; al mismo tiempo van ganando oro por encuentro, derrota o victoria, con el cual compran las unidades.
 Los jugadores comienzan con una cantidad de vida, si pierden una batalla se descuentan puntos de vida, si ganan siguen en competencia. El objetivo es dañar al oponente, hasta quitarle su vida y quede solo uno de los ocho jugadores. El jugador sale de la partida una vez que haya perdido sus puntos de vida, y su posición entre los ocho es determinada de acuerdo al momento y cantidad de vida negativa que quedo.
@@ -22,16 +22,16 @@ Además, el usuario puede agregar a otros jugadores para compartir más partidas
 Cabe destacar que el juego tendrá diferentes modos, para que pueda jugar en solitario, practicar, jugar online para subir de nivel o un modo clasificatorio, para mejorar su rango, el cual servirá para emparejar con jugadores de las mismas características, y ser más competitivo.
 Fuera de la sala de juego los jugadores verán estado de su perfil, irán subiendo de nivel con la experiencia obtenida, o sumando puntos para el modo clasificación. Además, configurar y guardar el perfil de juego, y realizar compras de productos que brinda el mismo. 
 
-#### Descripción del problema:
+### Descripción del problema:
 - Gestión de perfil: crear una base de datos que obtenga información al momento del registro de un nuevo usuario. Que el usuario utilice esta información para ingresar a su perfil de juego.
 - Gestión de partida: las partidas deben obtener información preestablecida para que el usuario pueda hacer uso de ellas durante las partidas.
 - Gestión de registro de partida: se debe poder registrar los resultados finales de la partida, con el fin de que el usuario vea sus últimos resultados, y pueda evaluar su estrategia y desempeño.
 - Gestión de compras: poder brindar información necesaria de productos del juego, y que el usuario pueda adquirirlos, brindando detalle de compra.
 
-#### Objetivos:
+### Objetivos:
 Crear una base de datos en una primera instancia para la creación del juego, la cual debe responder de forma eficiente al momento de capturar la información, y permitir, tanto al equipo de trabajo poder ingresar y modificar datos relacionados al juego, como a los usuarios poder registrarse y utilizar esta información al momento de ingresar a la sala de juego.
 
-#### Descripción de la base de datos:
+### Descripción de la base de datos:
 La base de datos está diseñada para el registro de nuevos usuarios, registro e historial de partidas para que los usuarios ya registrados lleven un control, información de compras y modificación de los valores del juego por parte del equipo de trabajo.
 
 ### TABLAS:
