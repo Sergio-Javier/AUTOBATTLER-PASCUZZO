@@ -1,6 +1,8 @@
 # AUTOBATTLER-PASCUZZO
 
-!(https://media.gettyimages.com/id/157334670/es/foto/base-de-datos.jpg?s=612x612&w=gi&k=20&c=038JVeL8H1wTL7ZqaCW1e-ryH0GYtPbpZVOdUDQC55E=)
+<center>
+<img src="https://media.gettyimages.com/id/157334670/es/foto/base-de-datos.jpg?s=612x612&w=gi&k=20&c=038JVeL8H1wTL7ZqaCW1e-ryH0GYtPbpZVOdUDQC55E=">
+</center>
 ___
 
 ## Entrega primer proyecto
