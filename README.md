@@ -36,48 +36,61 @@ La base de datos está diseñada para el registro de nuevos usuarios, registro e
 
 ### TABLAS:
 
-- USUARIO:
+- **USUARIO:**
 Almacena información sobre los usuarios al momento de registrarse e información relacionada al perfil de juego.
-Atributos: ID_USER, NOMBRE, APELLIDO, FECHA_NACIMIENTO, CORREO, PASSWORD, NICK, NIVEL_USER, PUNTOS_CLASIF, CONECTADO
+*Atributos:* ID_USER, NOMBRE, APELLIDO, FECHA_NACIMIENTO, CORREO, PASSWORD, NICK, NIVEL_USER, PUNTOS_CLASIF, CONECTADO
 
-- CONFIGURACIÓN:
+- **CONFIGURACIÓN:**
 Registra el tipo de configuración seleccionada por el perfil, tiene valores predeterminados.
-Atributos: ID_CONFIG, NOMBRE_CONFIG, CONFIG_VIDEO, CONFIG_SONIDO, CONFIG_KEYWORD
+*Atributos:* ID_CONFIG, NOMBRE_CONFIG, CONFIG_VIDEO, CONFIG_SONIDO, CONFIG_KEYWORD
 
-- AMIGOS:
+- **AMIGOS:**
 Listado de otros usuarios agregados por al perfil del usuario principal, este permite visualizar si están conectados o no.
-Atributos: ID_USER_, NICK_AMIGO, CONECTADO
+*Atributos:* ID_USER_, NICK_AMIGO, CONECTADO
 
-- PARTIDA:
+- **PARTIDA:**
 Información necesaria para ingresar a la partida, y obtener información del estado de la misma al finalizar.
-Atributos: ID_SALA, TIEMPO_DE_PARTIDA, ID_MODO, ID_UNIDAD, ID_MISION, PUNTOS_CLASIF_OBTENIDO, NIVEL_EXP_OBTENIDO, ORO, NIVEL,PUNTOS_DE_VIDA
+*Atributos:* ID_SALA, TIEMPO_DE_PARTIDA, ID_MODO, ID_UNIDAD, ID_MISION, PUNTOS_CLASIF_OBTENIDO, NIVEL_EXP_OBTENIDO, ORO, NIVEL,PUNTOS_DE_VIDA
 
-- ESTADISTICA:
+- **ESTADISTICA:**
 Brinda información detallada de cada partida
-Atributos: ID_ESTADISTICA, POSICION, NIVEL_ALCANZADO, UNIDADES_COMPRADAS
+*Atributos:* ID_ESTADISTICA, POSICION, NIVEL_ALCANZADO, UNIDADES_COMPRADAS
 
-- UNIDAD:
+- **UNIDAD:**
 Las unidades son los personajes que se despliegan durante el juego, cada una con sus características correspondientes.
-Atributos: ID_UNIDAD, NOMBRE, COSTO, RANGO_PRINCIPAL, RANGO_SECUNDARIO, DAÑO, DEFENSA, VIDA
+*Atributos:* ID_UNIDAD, NOMBRE, COSTO, RANGO_PRINCIPAL, RANGO_SECUNDARIO, DAÑO, DEFENSA, VIDA
 
-- MODO_DE_JUEGO:
+- **MODO_DE_JUEGO:**
 Contiene la información del tipo de juego a seleccionar, lo que brindara características según el tipo.
-Atributos: ID_MODO, TIPO_MODO, GANA_NIVEL_EXP, GANA_PUNTOS_CLASIF
+*Atributos:* ID_MODO, TIPO_MODO, GANA_NIVEL_EXP, GANA_PUNTOS_CLASIF
 
-- MISIONES:
+- **MISIONES:**
 Las misiones ofrecerán recompensas de acuerdo a la consigna asignada.
-Atributos: ID_MISION, TIPO_DE_MISION, TITULO, DESCRIPCIÓN, RECOMPENSA
+*Atributos:* ID_MISION, TIPO_DE_MISION, TITULO, DESCRIPCIÓN, RECOMPENSA
 
-- PRODUCTO:
+- **PRODUCTO:**
 El usuario tendrá posibilidad de adquirir a cambio de un pago productos relacionados al juego.
-Atributos: ID_PRODUCTO, TIPO_PRODUCTO, VALOR
+*Atributos:* ID_PRODUCTO, TIPO_PRODUCTO, VALOR
 
-- FACTURA:
+- **FACTURA:**
 Se emitirá una factura luego de realizada una transacción entre el usuario y el juego, donde se le detallara su compra, costo y cobro de la misma.
-Atributos: ID_TRANSACCION, ID_PRODUCTO, ID_USER, EMAIL, NICK, CANTIDAD_PRODUCTO, TOTAL_PAGAR, MEDIO_DE_PAGO, COMPLETADO
+*Atributos:* ID_TRANSACCION, ID_PRODUCTO, ID_USER, EMAIL, NICK, CANTIDAD_PRODUCTO, TOTAL_PAGAR, MEDIO_DE_PAGO, COMPLETADO
 
-- REGISTRO_DE_PARTIDA:
+- **REGISTRO_DE_PARTIDA:**
 En ella se llevara el registro general de las partidas jugadas por el usuario, a fin de minimizar el acceso a información.
-Atributos: ID_REG, FECHA_HORA, ID_SALA, ID_USER
+*Atributos:* ID_REG, FECHA_HORA, ID_SALA, ID_USER
 
 ### Listado de tablas y descripción:
+
+| Tabla         | Columna           | Tipo de Datos                         |
+| ------------- | ----------------- |                                  ---: |
+| USUARIO       | ID_USER           | INT                                   |
+|               | NOMBRE            | VARCHAR(25)                           |
+|               | APELLIDO          | VARCHAR(25)                           |
+|               | FECHA_NACIMIENTO  | DATE                                  |
+|               | CORREO            | VARCHAR(100)                          |
+|               | PASSWORD          | VARCHAR(25)                           |
+|               | NICK              | VARCHAR(25)                           |
+|               | NIVEL_USER        | INT                                   |
+|               | PUNTOS_CLASIF     | INT                                   |
+|               | CONECTADO         | BOOLEAN                               |
