@@ -4,10 +4,11 @@
 _________________________________________________________________________________________________________________________________
 
 ## Entrega primer proyecto
+### **PRESENTACIÓN**
 ### Pascuzzo Sergio Javier
 ### Comisión 57190
-### Tutor:
-### Docente:
+### Tutor: Ariel Annone
+### Docente: Anderson Ocaña Torres
 *********************************************************************************************************************************
 ### INTRODUCCION:
 Mi nombre es Sergio Javier Pascuzzo, curso en Coderhouse Base de datos en SQL, y presentare como proyecto una base de datos, basado en un juego (ficticio). Más adelante aclararé de que se trata y el procedimiento de como realice dicho trabajo.
