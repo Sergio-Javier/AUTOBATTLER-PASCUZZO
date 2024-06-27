@@ -40,7 +40,7 @@ La base de datos está diseñada para el registro de nuevos usuarios, registro e
 
 - **USUARIO:**
 Almacena información sobre los usuarios al momento de registrarse e información relacionada al perfil de juego.
-*Atributos:* ID_USER, NOMBRE, APELLIDO, FECHA_NACIMIENTO, CORREO, PASSWORD, NICK, NIVEL_USER, PUNTOS_CLASIF, CONECTADO
+*Atributos:* ID_USER, NOMBRE, APELLIDO, FECHA_NACIMIENTO, CORREO, PASSWORD, NICK, NIVEL_USER, PUNTOS_CLASIF, CONECTADO, ID_CONFIG, ID_USER_
 
 - **CONFIGURACIÓN:**
 Registra el tipo de configuración seleccionada por el perfil, tiene valores predeterminados.
@@ -100,7 +100,8 @@ En ella se llevara el registro general de las partidas jugadas por el usuario, a
 
 ### DIAGRAMA ENTIDAD-RELACIÓN (DER)
 
-![image](https://github.com/Sergio-Javier/AUTOBATTLER-PASCUZZO/assets/173856047/84e18c9e-dfa6-4e43-8d9f-607a322786ab)
+![image](https://github.com/Sergio-Javier/AUTOBATTLER-PASCUZZO/assets/173856047/54a2c8de-57e1-4bfd-920b-d04523bd4fe2)
+
 
 **[PARA VISUALIZAR MEJOR HACER CLICK AQUI](https://whimsical.com/der-autobattler-2bxqrFpQD5GyFNj2uwau9e)**
 
