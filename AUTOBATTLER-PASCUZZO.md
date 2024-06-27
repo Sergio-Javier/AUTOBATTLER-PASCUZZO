@@ -114,6 +114,79 @@ En ella se llevara el registro general de las partidas jugadas por el usuario, a
 |		|NICK_AMIGO	|VARCHAR(25)	|
 |		|CONECTADO	|BOOLEAN	|
 
+|Tabla	      |Columna		|Tipo de Datos	|
+|-------------|-----------------|	-------:|
+|MODO_DE_JUEGO	|ID_MODO	|INT	|
+|		|TIPO_MODO	|VARCHAR(25)	|
+|		|GANA_NIVEL_EXP	|INT  |
+|		|GANA_PUNTOS_CLASIF	|INT  |
+
+|Tabla	      |Columna		|Tipo de Datos	|
+|-------------|-----------------|	-------:|
+|MISIONES	|ID_MISION	|INT		|
+|		|TIPO_DE_MISION	|VARCHAR(25)	|
+|		|TITULO		|VARCHAR(25)	|
+|		|DESCRIPCIÓN	|VARCHAR(100)	|
+|		|RECOMPENSA	|VARCHAR(25)	|
+
+|Tabla	      |Columna		|Tipo de Datos	|
+|-------------|-----------------|	-------:|
+|REGISTRO_DE_PARTIDA	|ID_REG |INT		|
+|		|FECHA_HORA	|DATETIME	|
+|		|ID_SALA	|INT		|
+|		|ID_USER	|INT		|
+
+|Tabla	      |Columna		|Tipo de Datos	|
+|-------------|-----------------|	-------:|
+|ESTADISTICA	|ID_ESTADISTICA	|INT	|
+|		|POSICION	|INT	|
+|		|NIVEL_ALCANZADO|INT(1)	|
+|		|UNIDADES_COMPRADAS|INT(1)|
+
+
+|Tabla	      |Columna		|Tipo de Datos	|
+|-------------|-----------------|	-------:|
+|UNIDAD		|ID_UNIDAD	|INT		|
+|		|NOMBRE		|VARCHAR(25)	|
+|		|COSTO		|INT(1)		|
+|		|RANGO_PRINCIPAL|	VARCHAR(25)|
+|		|RANGO_SECUNDARIO|	VARCHAR(25)|
+|		|DAÑO		|INT		|
+|		|DEFENSA	|INT		|
+|		|VIDA		|INT		|
+
+|Tabla	      |Columna		|Tipo de Datos	|
+|-------------|-----------------|	-------:|
+|PARTIDA	|ID_SALA	|INT	|
+|	|ID_ESTADISTICA	|INT		|
+|	|ID_MODO	|INT		|
+|	|ID_UNIDAD	|INT		|
+|	|ID_MISION	|INT		|
+|	|PUNTOS_CLASIF_OBTENIDO	|INT	|
+|	|NIVEL_EXP_OBTENIDO	|INT	|
+|	|ORO		|INT		|
+|	|NIVEL		|INT		|
+|	|PUNTOS_DE_VIDA	|INT		|
+|	|TIEMPO_DE_PARTIDA	|TIME	|
+
+|Tabla	      |Columna		|Tipo de Datos	|
+|-------------|-----------------|	-------:|
+|PRODUCTO	|ID_PRODUCTO	|INT		|
+|		|TIPO_PRODUCTO	|VARCHAR(50)	|
+|		|VALOR		|DECIMAL(5,2)	|
+
+|Tabla	      |Columna		|Tipo de Datos	|
+|-------------|-----------------|	-------:|
+|FACTURA	|ID_TRANSACCION	|INT		|
+|		|ID_PRODUCTO	|INT		|
+|		|ID_USER	|INT		|
+|		|EMAIL		|VARCHAR(100)	|
+|		|NICK		|VARCHAR(25)	|
+|		|CANTIDAD_PRODUCTO|	INT	|
+|		|TOTAL_PAGAR	|DECIMAL(5,2)	|
+|		|MEDIO_DE_PAGO	|VARCHAR(100)	|
+|		|COMPLETADO	|BOOLEAN	|
+
 ### DIAGRAMA ENTIDAD-RELACIÓN (DER)
 
 ![image](https://github.com/Sergio-Javier/AUTOBATTLER-PASCUZZO/assets/173856047/54a2c8de-57e1-4bfd-920b-d04523bd4fe2)
