@@ -100,6 +100,14 @@ En ella se llevara el registro general de las partidas jugadas por el usuario, a
 |               | CONECTADO         | BOOLEAN                               |
 
 
+|Tabla	      |Columna		|Tipo de Datos	|
+|-------------|-----------------|	-------:|
+|CONFIGURACON |ID_CONFIG	|INT		|
+|	      |NOMBRE_CONFIG	|VARCHAR(25)	|
+|	      |CONFIG_VIDEO	|BOOLEAN	|
+|	      |CONFIG_SONIDO	|BOOLEAN	|
+|	      |CONFIG_KEYWORD	|BOOLEAN	|
+
 ### DIAGRAMA ENTIDAD-RELACIÓN (DER)
 
 ![image](https://github.com/Sergio-Javier/AUTOBATTLER-PASCUZZO/assets/173856047/54a2c8de-57e1-4bfd-920b-d04523bd4fe2)
