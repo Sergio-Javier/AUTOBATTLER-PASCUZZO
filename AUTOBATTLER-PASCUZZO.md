@@ -46,7 +46,7 @@ Almacena información sobre los usuarios al momento de registrarse e informació
 
 - **CONFIGURACIÓN:**
 Registra el tipo de configuración seleccionada por el perfil, tiene valores predeterminados.
-*Atributos:* ID_CONFIG, NOMBRE_CONFIG, CONFIG_VIDEO, CONFIG_SONIDO, CONFIG_KEYWORD
+*Atributos:* ID_CONFIG, NOMBRE_CONFIG, CONFIG_VIDEO, CONFIG_SONIDO, CONFIG_JUEGO
 
 - **AMIGOS:**
 Listado de otros usuarios agregados por al perfil del usuario principal, este permite visualizar si están conectados o no.
@@ -103,10 +103,10 @@ En ella se llevara el registro general de las partidas jugadas por el usuario, a
 |Tabla	      |Columna		|Tipo de Datos	|
 |-------------|-----------------|	-------:|
 |CONFIGURACON |ID_CONFIG	|INT		|
-|	      |NOMBRE_CONFIG	|VARCHAR(25)	|
-|	      |CONFIG_VIDEO	|BOOLEAN	|
-|	      |CONFIG_SONIDO	|BOOLEAN	|
-|	      |CONFIG_KEYWORD	|BOOLEAN	|
+|	      |NOMBRE_CONFIG   |VARCHAR(25)	|
+|	      |CONFIG_VIDEO	   |ENUM	|
+|	      |CONFIG_SONIDO	 |BOOLEAN	|
+|	      |CONFIG_JUEGO  	 |ENUM	|
 
 |Tabla	      |Columna		|Tipo de Datos	|
 |-------------|-----------------|	-------:|
@@ -148,7 +148,7 @@ En ella se llevara el registro general de las partidas jugadas por el usuario, a
 |-------------|-----------------|	-------:|
 |UNIDAD		|ID_UNIDAD	|INT		|
 |		|NOMBRE		|VARCHAR(25)	|
-|		|COSTO		|INT(1)		|
+|		|COSTO		|ENUM		|
 |		|RANGO_PRINCIPAL|	VARCHAR(25)|
 |		|RANGO_SECUNDARIO|	VARCHAR(25)|
 |		|DAÑO		|INT		|
